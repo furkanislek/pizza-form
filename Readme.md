@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/76527169/213245928-23da2729-40d4-4cce-b09e-c95412a27db0.png)
+
+
 # Tek Sayfa Uygulamalar Sprint Challenge
 
 **Talimatları dikkatlice okuyun. Sprint Challenge'a başlamadan neler istendiğini tam olarak anladığınıza emin olun.**
