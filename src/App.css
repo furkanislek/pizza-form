@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+header h1 {
+  background-color: #e0144c;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#root > header > div {
+  background-color: #e0144c;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.header {
+  padding: 1.5rem 12rem;
+  background-color: #e0144a;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .links a {
+    margin-top: 1rem;
+  }
+
+  .pizzaImg {
+    top: 22% !important;
+  }
+
+  .pizzaImg2 {
+    top: 22% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pizzaImg {
+    top: 35% !important;
+  }
+  .pizzaImg2 {
+    top: 35% !important;
+  }
+  .buttonInDiv button {
+    top: 100% !important;
+    background-color: aqua;
+  }
+}
+@media (max-width: 1220px) {
+  .slogan {
+    flex-direction: column;
+    text-align: center;
+  }
+  #sliderImg {
+    height: 90vh;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .links a {
+    margin-top: 1rem;
+  }
+}
+
+.pizzaText p {
+  text-indent: 2rem;
+}
+
+.slogan {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20rem;
+}
+
+.slogan h2 {
+  font-size: 1.5rem;
+}
+
+.slogan div {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.link {
+  margin: 10rem 1rem 0;
+  background-color: #e0144c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.link:hover {
+  opacity: 0.8;
+}
+
+.container-home {
+  min-width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.buttonInDiv {
+  background-color: transparent;
+}
+
+.buttonInDiv button {
+  cursor: pointer;
+  background-color: #e0144c;
+  border-width: 0;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 0.8rem 3rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+}
+
+.buttonInDiv:hover {
+  opacity: 1;
+}
+section {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+section button {
+  padding: 0.3rem 1.4rem;
+  border-radius: 1rem;
+}
+
+#root > header > a {
+  text-decoration-line: none;
+}
+
+#root > header > a > h1 {
+  background-color: #e0144c;
+  text-decoration: none;
+}
+
+.pizzaFaydalari {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 15rem 2rem 15rem;
+  background-color: #e0144c;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 1750px) {
+  .pizzaFaydalari {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .pizzaFaydalari div {
+    text-align: center;
+  }
+
+  .pizzaFaydalari img {
+    max-width: 20rem;
+    width: 50vw;
+  }
+
+  .pizzaPartyFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pizzaPartyFlex .pizzaPartyImg {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.pizzaFaydalari img {
+  max-width: 30vw;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.pizzaFaydalari div,
+.pizzaFaydalari p,
+.pizzaFaydalari h4 {
+  background-color: #e0144c;
+}
+
+.pizzaFaydalari div {
+  margin: 0 1rem;
+}
+
+.pizzaFaydalari .pizzaText h4 {
+  font-weight: 600;
+  margin: 5rem 3rem 0rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.pizzaFaydalari .pizzaText p {
+  font-weight: 600;
+  margin: 2rem 3rem;
+  font-size: 1rem;
+  color: #fff;
+  text-align: justify;
+}
+
+.footerContainer {
+  padding: 2rem 5rem 2rem 2rem;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #e0144c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContainer .icons a {
+  margin-left: 2rem;
+}
+.footerContainer .icons a .gitIcons,
+.footerContainer .icons a .linkIcons {
+  font-size: 1.5rem;
+  color: #e0144c;
+}
+.footerContainer .icons a .gitIcons:hover {
+  color: rgb(80, 80, 80);
+}
+.footerContainer .icons a .linkIcons:hover {
+  color: rgb(80, 80, 80);
+}
+
+.footerContainerSiparis {
+  padding: 2rem 5rem 2rem 2rem;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0144c;
+}
+
+@media (max-width: 750px) {
+  .footerContainerSiparis {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .footerContainerSiparis .icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .footerContainerSiparis .icons a .gitIconsSiparis {
+    margin-bottom: 1rem;
+  }
+}
+
+#root > div:nth-child(4) > div > div.copyright {
+  background-color: transparent;
+}
+
+.footerContainerSiparis .icons {
+  background-color: transparent;
+}
+
+.footerContainerSiparis .icons a {
+  margin-left: 2rem;
+  background-color: transparent;
+}
+.footerContainerSiparis .icons a .gitIconsSiparis,
+.footerContainerSiparis .icons a .linkIconsSiparis {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+.footerContainerSiparis .icons a .gitIconsSiparis:hover {
+  opacity: 0.8;
+}
+.footerContainerSiparis .icons a .linkIconsSiparis:hover {
+  opacity: 0.8;
+}
+
+.buttonKapatma {
+  color: black;
+}
+
+.pizzaPartyFlex {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pizzaPartyFlex .pizzaPartyImg img {
+  width: 35rem;
+  height: 35rem;
+  margin-right: 2rem;
+}
+
+.pizzaPartyFlex h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: url("https://dimospizza.com/assets/images/clip/red.png");
+  background-position: center left;
+  background-size: cover;
+  color: #e2173cf6;
+}
+
+.pizzaPartyFlex p {
+  text-align: justify;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .pizzaPartyFlex .pizzaPartyImg img {
+    max-width: 100%;
+  }
+}
+
+.pizzaImg {
+  width: 4rem;
+  padding: 0rem;
+  margin: 0;
+  position: absolute;
+  top: 7%;
+  left: 12%;
+  overflow: hidden;
+  z-index: 9;
+  animation: animationPizza 5s linear infinite alternate;
+}
+
+.pizzaImg2 {
+  width: 4rem;
+  padding: 0rem;
+  margin: 0;
+  position: absolute;
+  top: 7%;
+  left: 80%;
+  overflow: hidden;
+  z-index: 9;
+  animation: animationPizza 5s linear infinite alternate;
+}
+
+@keyframes animationPizza {
+  from {
+    transform: translateX(0) rotate(0deg);
+  }
+  to {
+    transform: translateX(100%) rotate(359deg);
+  }
+}
